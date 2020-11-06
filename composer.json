@@ -1,0 +1,26 @@
+{
+    "name": "developer/matrix",
+    "description": "generate a tranpose matrix of a given value",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swarup Saha",
+            "email": "swarup@example.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Matrix\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Matrix\\Test\\": "tests"
+        }
+    }
+}
